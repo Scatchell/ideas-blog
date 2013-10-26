@@ -4,7 +4,7 @@
   <title><![CDATA[Category: thoughtworks | Thinking For ThoughtWorks]]></title>
   <link href="http://yoursite.com/blog/categories/thoughtworks/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-10-26T16:41:06+03:00</updated>
+  <updated>2013-10-26T19:13:41+03:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
@@ -22,7 +22,7 @@
 
 <p>It all started on a dark and rainy Tuesday afternoon in San Francisco (though it&rsquo;s nearly always cloudy, so this isn&rsquo;t saying much). I was at work, right in the middle of solving some mildly interesting problem with a colleague, when I decided to glance at my computer to check for some tool we needed. This forced me to accidentally check my E-Mail, which is always a horrible idea. As usual, there was something there that caught my eye in a negative, forcing context switching kind of way &ndash; it was an E-Mail from Charles, written in all caps, yelling at me for not turning in my time-sheet yet. Don&rsquo;t get me wrong, Charles is an awesome guy&hellip;one of my favorites in the San Francisco office. I don&rsquo;t want to kill the messenger, he just happens to be the one who sends out the E-Mails that force me to worry about my time-sheet :).</p>
 
-<p>The E-Mail specifically detailed all the reasons I was damaging ThoughtWorks' bank account, and its relationship with the client by not turning in my time-sheet on time last week. I was ruining everything&hellip;.the company was going to collapse if I didn&rsquo;t turn it in that day&hellip;and not only that, but this was maybe the 4'th or 5'th time it has happened! It was a miracle ThoughtWorks had managed to survive up until that point with all the damage I had already done, I couldn&rsquo;t jeopardize my beloved company yet again by making my timesheet even LATER! But, I was in the middle of pairing, and I didn&rsquo;t want to suddenly leave the warm embrace of my <a href="http://www.youtube.com/watch?v=dYBjVTMUQY0">loving pair</a>, switching context completely for 10-15 minutes while I thought long and hard about how many hours I worked the week before. Decisions, decisions&hellip;</p>
+<p>The E-Mail specifically detailed all the reasons I was damaging ThoughtWorks' bank account, and its relationship with the client by not turning in my time-sheet on time last week. I was ruining everything&hellip;.the company was going to collapse if I didn&rsquo;t turn it in that day&hellip;and not only that, but this was maybe the 4'th or 5'th time it has happened! It was a miracle ThoughtWorks had managed to survive up until that point with all the damage I had already done, I couldn&rsquo;t jeopardize my beloved company yet again by making my time sheet even LATER! But, I was in the middle of pairing, and I didn&rsquo;t want to suddenly leave the warm embrace of my <a href="http://www.youtube.com/watch?v=dYBjVTMUQY0">loving pair</a>, switching context completely for 10-15 minutes while I thought long and hard about how many hours I worked the week before. Decisions, decisions&hellip;</p>
 
 <h2>If Only&hellip;</h2>
 
@@ -43,10 +43,10 @@
 <h2>So, how does it work?</h2>
 
 <ol>
-<li>Every 5 seconds or so, it checks to see if you&rsquo;re connected to one of the predefined wifi networks (by default, these are &lsquo;twdata&rsquo; and &lsquo;twguest&rsquo; &ndash; but can also easily add project specific wifi&rsquo;s.) Every 5 seconds when it checks, if you are detected being on the work networks you have defined (i.e.  you&rsquo;re &lsquo;at work&rsquo; to charles) one of two things can happen:
+<li>Every 5 seconds or so, it checks to see if you&rsquo;re connected to one of the predefined wifi networks (by default, these are &lsquo;twdata&rsquo; and &lsquo;twguest&rsquo; &ndash; but can also easily add project specific wifi&rsquo;s.) Every 5 seconds when it checks, if you are detected being on the work networks you have defined (i.e.  you&rsquo;re &lsquo;at work&rsquo; to Charles) one of two things can happen:
 
 <ol>
-<li>If it is the first time charles has been run for this day, he will create a new day starting at the current time (i.e. if you&rsquo;ve just arrived at work and opened your computer at 8:00am, it will mark 8:00am as the &ldquo;started work&rdquo; time for today)</li>
+<li>If it is the first time Charles has been run for this day, he will create a new day starting at the current time (i.e. if you&rsquo;ve just arrived at work and opened your computer at 8:00am, it will mark 8:00am as the &ldquo;started work&rdquo; time for today)</li>
 <li>If you are detected as no longer being connected to the network, it will mark that time as the ENDING time for the day, replacing whatever the previous ending time was</li>
 </ol>
 </li>
@@ -70,13 +70,13 @@
 
 <h2>Where Can I Get It?</h2>
 
-<p>On <a href="https://github.com/Scatchell/charles">github</a>, of course!</p>
+<p>On <a href="https://github.com/Scatchell/Charles">Git Hub</a>, of course!</p>
 
 <h2>The Future</h2>
 
 <h4>Automating the Time Entry</h4>
 
-<p>What I think would really be cool, is using a browser automation tool (like selenium) to give charles a function that allows it to log into our T&amp;E webpage (if you already have a valid session) and set all the times automatically, taking out an hour for lunch automatically, or something. Then, charles would allow you to simply glance at the form it has automatically filled out, make sure everything is good and accurately represents what happened that week, and just click the submit button. Hopefully the whole process would take less than 15 seconds like this.</p>
+<p>What I think would really be cool, is using a browser automation tool (like selenium) to give Charles a function that allows it to log into our T&amp;E web page (if you already have a valid session) and set all the times automatically, taking out an hour for lunch automatically, or something. Then, Charles would allow you to simply glance at the form it has automatically filled out, make sure everything is good and accurately represents what happened that week, and just click the submit button. Hopefully the whole process would take less than 15 seconds like this.</p>
 
 <h4>Going Mobile</h4>
 

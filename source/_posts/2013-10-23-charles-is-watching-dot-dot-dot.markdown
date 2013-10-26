@@ -8,7 +8,7 @@ categories: ruby thoughtworks t&e
 ##The Problem
 It all started on a dark and rainy Tuesday afternoon in San Francisco (though it's nearly always cloudy, so this isn't saying much). I was at work, right in the middle of solving some mildly interesting problem with a colleague, when I decided to glance at my computer to check for some tool we needed. This forced me to accidentally check my E-Mail, which is always a horrible idea. As usual, there was something there that caught my eye in a negative, forcing context switching kind of way - it was an E-Mail from Charles, written in all caps, yelling at me for not turning in my time-sheet yet. Don't get me wrong, Charles is an awesome guy...one of my favorites in the San Francisco office. I don't want to kill the messenger, he just happens to be the one who sends out the E-Mails that force me to worry about my time-sheet :).
 
-The E-Mail specifically detailed all the reasons I was damaging ThoughtWorks' bank account, and its relationship with the client by not turning in my time-sheet on time last week. I was ruining everything....the company was going to collapse if I didn't turn it in that day...and not only that, but this was maybe the 4'th or 5'th time it has happened! It was a miracle ThoughtWorks had managed to survive up until that point with all the damage I had already done, I couldn't jeopardize my beloved company yet again by making my timesheet even LATER! But, I was in the middle of pairing, and I didn't want to suddenly leave the warm embrace of my [loving pair](http://www.youtube.com/watch?v=dYBjVTMUQY0), switching context completely for 10-15 minutes while I thought long and hard about how many hours I worked the week before. Decisions, decisions...
+The E-Mail specifically detailed all the reasons I was damaging ThoughtWorks' bank account, and its relationship with the client by not turning in my time-sheet on time last week. I was ruining everything....the company was going to collapse if I didn't turn it in that day...and not only that, but this was maybe the 4'th or 5'th time it has happened! It was a miracle ThoughtWorks had managed to survive up until that point with all the damage I had already done, I couldn't jeopardize my beloved company yet again by making my time sheet even LATER! But, I was in the middle of pairing, and I didn't want to suddenly leave the warm embrace of my [loving pair](http://www.youtube.com/watch?v=dYBjVTMUQY0), switching context completely for 10-15 minutes while I thought long and hard about how many hours I worked the week before. Decisions, decisions...
 
 ##If Only...
 If only I had some way to quickly remember how many hours I worked in the last week! Even when I turn in my time-sheet is on time, think of how many batches of 5-10 minutes are wasted sitting around trying to remember hours worked?
@@ -23,8 +23,8 @@ And if that still doesn't sound like a lot, keep in mind it isn't including the 
 At first, wasn't positive how to accomplish this, but I had a hunch that being connected to the wifi (since we are always on the internet at work) might be a good place to start.
 
 ##So, how does it work?
-1. Every 5 seconds or so, it checks to see if you're connected to one of the predefined wifi networks (by default, these are 'twdata' and 'twguest' - but can also easily add project specific wifi's.) Every 5 seconds when it checks, if you are detected being on the work networks you have defined (i.e.  you're 'at work' to charles) one of two things can happen:
-    1. If it is the first time charles has been run for this day, he will create a new day starting at the current time (i.e. if you've just arrived at work and opened your computer at 8:00am, it will mark 8:00am as the "started work" time for today)
+1. Every 5 seconds or so, it checks to see if you're connected to one of the predefined wifi networks (by default, these are 'twdata' and 'twguest' - but can also easily add project specific wifi's.) Every 5 seconds when it checks, if you are detected being on the work networks you have defined (i.e.  you're 'at work' to Charles) one of two things can happen:
+    1. If it is the first time Charles has been run for this day, he will create a new day starting at the current time (i.e. if you've just arrived at work and opened your computer at 8:00am, it will mark 8:00am as the "started work" time for today)
     2. If you are detected as no longer being connected to the network, it will mark that time as the ENDING time for the day, replacing whatever the previous ending time was
 
 This means every 5 seconds your 'ending time' for the day is changing to be more up to date. The assumption is, the last time you close your computer and leave the office, that ending time will be accurately saved within 5 seconds.
@@ -41,11 +41,11 @@ And he will continue along happily until you close your computer and go home for
 
 
 ##Where Can I Get It?
-On [github](https://github.com/Scatchell/charles), of course! 
+On [Git Hub](https://github.com/Scatchell/Charles), of course! 
 
 ##The Future
 ####Automating the Time Entry
-What I think would really be cool, is using a browser automation tool (like selenium) to give charles a function that allows it to log into our T&E webpage (if you already have a valid session) and set all the times automatically, taking out an hour for lunch automatically, or something. Then, charles would allow you to simply glance at the form it has automatically filled out, make sure everything is good and accurately represents what happened that week, and just click the submit button. Hopefully the whole process would take less than 15 seconds like this.
+What I think would really be cool, is using a browser automation tool (like selenium) to give Charles a function that allows it to log into our T&E web page (if you already have a valid session) and set all the times automatically, taking out an hour for lunch automatically, or something. Then, Charles would allow you to simply glance at the form it has automatically filled out, make sure everything is good and accurately represents what happened that week, and just click the submit button. Hopefully the whole process would take less than 15 seconds like this.
 
 ####Going Mobile
 Another option is to integrate Charles, or something like it, into a cell phone. They are constantly searching for wifi networks, and since people tend to pretty much ALWAYS have their cell phones on, as long as you had your wifi activated, this would probably be extremely accurate as far as logging exactly how many minutes you were inside of a particular building.
