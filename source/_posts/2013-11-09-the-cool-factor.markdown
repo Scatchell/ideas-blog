@@ -9,6 +9,8 @@ categories:
 - technology
 - psychology
 ---
+*(This post is still an unfinished draft)*
+
 I often find myself wondering about and/or having conversations with others concerning the classic breadth vs depth decision. To explain, let's say you have 100 hours to learn some things - and you could choose either to:
 
 - Learn 15 different things given these 100 hours, but all of them only to a relatively shallow degree
