@@ -10,7 +10,7 @@ categories:
 ---
 *(This post is still an unfinished draft)*
 
-I often find myself wondering about and/or having conversations concerning the classic breadth vs depth conundrum. To explain it with a quick example, let's say you have 100 hours to learn some things - and you could choose either to:
+I often find myself wondering about and having conversations concerning the classic breadth vs depth conundrum. To explain it with a quick example, let's say you have 100 hours to learn some things - and you could choose either to:
 
 - Learn 15 different things given these 100 hours, but all of them only to a relatively shallow degree
 - Learn only 1 or 2 things with these 100 hours, but learning them to an extremely deep depth
@@ -28,9 +28,9 @@ If you ask this question to almost anyone, inside or out of the IT industry, you
 
 > "T-Shaped people, who are generalists amongst a wide array of skills but experts in only a few""
 
-Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think this answer is **bullshit**, and that, in most cases, it should be viewed as nothing less.
+Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think these answers are **bullshit**, and that, in most cases, it should be viewed as nothing less.
 
-It is valid and useful in the sense that perfection is an important ideology to *strive* for - of course we want to make an *attempt* to achieve the best possible solution. But, I also feel it's a bit like the president asking his or her chief economic advisor "What should we do about balancing the budget?" and getting the response "We should make sure we don't waste money on bad things, and spend it only on good things!" It's a nice idea that's really easy to agree with but, how helpful is it, really?
+It is valid and useful in the sense that perfection is an important ideology to *strive* for - of course we want to make an *attempt* to achieve the best possible solution. But, I also feel it's a bit like the president asking his or her chief economic advisor "What should we do about balancing the budget?" and getting the response "We should make sure we don't waste money on bad things, and spend it only on good things!" It's a nice idea that's very easy to agree with but, how helpful is it, really?
 
 So, let us put aside the answer of "be perfect" and instead consider slightly more realistic concerns.
 
