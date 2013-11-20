@@ -38,10 +38,10 @@ So, let us put aside the answer of "be perfect" and instead consider slightly mo
 
 In the IT industry, I believe there is an unspoken influence which places a stronger focus on depth than on breadth. I will also argue that I think this is wrong, and not only potentially dangerous to the industry as a whole, but also *particularly* dangerous to consulting firms - the reasoning of which I will try to detail shortly.
 
-I feel safe suggesting such a hard opinion because I don't insult the general ideology of depth being 'better' than breadth, but instead I insult the mechanism that I believe often causes this decision to be made <a onclick="$('#hidden-coolness').show()" style="cursor:pointer;">click to see:</a>
+I feel safe suggesting such a hard opinion because I don't insult the general ideology of depth being 'better' than breadth, but instead I insult the mechanism that I believe often causes this decision to be made (scroll down to see):
 
 <div id="hidden-coolness" style="
-display: none;
+visibility: hidden;
 padding: 15px;
 border: 4px dashed black;
 ">
@@ -49,6 +49,21 @@ border: 4px dashed black;
 
     <img src="/images/don_draper_is_cool.png" alt="The Cool Factor">
 </div>
+<div id="outer-coolness">
+</div>
+<script type="text/javascript">
+    var eTop = $('#outer-coolness').offset().top; //get the offset top of the element
+    var eHeight = $('#outer-coolness').height();
+
+    $(window).scroll(function() {
+            var height = (eTop - $(window).scrollTop());
+            if(height < 700) {
+                $('#hidden-coolness').css({visibility: 'visible'});
+            } else {
+                $('#hidden-coolness').css({visibility: 'hidden'});
+            }
+    });
+</script>
 </br>
 The cool factor can be explained with a simple example. Take two programming concepts:
 

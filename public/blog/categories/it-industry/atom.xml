@@ -4,7 +4,7 @@
   <title><![CDATA[Category: IT industry | Thinking For ThoughtWorks]]></title>
   <link href="http://yoursite.com/blog/categories/it-industry/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-11-19T18:30:30+03:00</updated>
+  <updated>2013-11-20T18:14:59+03:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
@@ -20,7 +20,7 @@
     <id>http://yoursite.com/blog/2013/11/09/the-cool-factor</id>
     <content type="html"><![CDATA[<p><em>(This post is still an unfinished draft)</em></p>
 
-<p>I often find myself wondering about and/or having conversations concerning the classic breadth vs depth conundrum. To explain it with a quick example, let&rsquo;s say you have 100 hours to learn some things &ndash; and you could choose either to:</p>
+<p>I often find myself wondering about and having conversations concerning the classic breadth vs depth conundrum. To explain it with a quick example, let&rsquo;s say you have 100 hours to learn some things &ndash; and you could choose either to:</p>
 
 <ul>
 <li>Learn 15 different things given these 100 hours, but all of them only to a relatively shallow degree</li>
@@ -43,9 +43,9 @@
 
 <blockquote><p>&ldquo;T-Shaped people, who are generalists amongst a wide array of skills but experts in only a few&rdquo;"</p></blockquote>
 
-<p>Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think this answer is <strong>bullshit</strong>, and that, in most cases, it should be viewed as nothing less.</p>
+<p>Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think these answers are <strong>bullshit</strong>, and that, in most cases, it should be viewed as nothing less.</p>
 
-<p>It is valid and useful in the sense that perfection is an important ideology to <em>strive</em> for &ndash; of course we want to make an <em>attempt</em> to achieve the best possible solution. But, I also feel it&rsquo;s a bit like the president asking his or her chief economic advisor &ldquo;What should we do about balancing the budget?&rdquo; and getting the response &ldquo;We should make sure we don&rsquo;t waste money on bad things, and spend it only on good things!&rdquo; It&rsquo;s a nice idea that&rsquo;s really easy to agree with but, how helpful is it, really?</p>
+<p>It is valid and useful in the sense that perfection is an important ideology to <em>strive</em> for &ndash; of course we want to make an <em>attempt</em> to achieve the best possible solution. But, I also feel it&rsquo;s a bit like the president asking his or her chief economic advisor &ldquo;What should we do about balancing the budget?&rdquo; and getting the response &ldquo;We should make sure we don&rsquo;t waste money on bad things, and spend it only on good things!&rdquo; It&rsquo;s a nice idea that&rsquo;s very easy to agree with but, how helpful is it, really?</p>
 
 <p>So, let us put aside the answer of &ldquo;be perfect&rdquo; and instead consider slightly more realistic concerns.</p>
 
@@ -53,10 +53,10 @@
 
 <p>In the IT industry, I believe there is an unspoken influence which places a stronger focus on depth than on breadth. I will also argue that I think this is wrong, and not only potentially dangerous to the industry as a whole, but also <em>particularly</em> dangerous to consulting firms &ndash; the reasoning of which I will try to detail shortly.</p>
 
-<p>I feel safe suggesting such a hard opinion because I don&rsquo;t insult the general ideology of depth being &lsquo;better&rsquo; than breadth, but instead I insult the mechanism that I believe often causes this decision to be made <a onclick="$('#hidden-coolness').show()" style="cursor:pointer;">click to see:</a></p>
+<p>I feel safe suggesting such a hard opinion because I don&rsquo;t insult the general ideology of depth being &lsquo;better&rsquo; than breadth, but instead I insult the mechanism that I believe often causes this decision to be made (scroll down to see):</p>
 
 <div id="hidden-coolness" style="
-display: none;
+visibility: hidden;
 padding: 15px;
 border: 4px dashed black;
 ">
@@ -64,6 +64,25 @@ border: 4px dashed black;
 
     <img src="http://yoursite.com/images/don_draper_is_cool.png" alt="The Cool Factor">
 </div>
+
+
+<div id="outer-coolness">
+</div>
+
+
+<script type="text/javascript">
+    var eTop = $('#outer-coolness').offset().top; //get the offset top of the element
+    var eHeight = $('#outer-coolness').height();
+
+    $(window).scroll(function() {
+            var height = (eTop - $(window).scrollTop());
+            if(height < 700) {
+                $('#hidden-coolness').css({visibility: 'visible'});
+            } else {
+                $('#hidden-coolness').css({visibility: 'hidden'});
+            }
+    });
+</script>
 
 
 <p></br>
