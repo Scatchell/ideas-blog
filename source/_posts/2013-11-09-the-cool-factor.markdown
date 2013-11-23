@@ -43,7 +43,6 @@ I feel safe suggesting such a hard opinion because I don't insult the general id
 <div id="hidden-coolness" style="
 visibility: hidden;
 padding: 15px;
-border: 4px dashed black;
 ">
     <h3>The Cool Factor</h3>
 
@@ -57,7 +56,7 @@ border: 4px dashed black;
 
     $(window).scroll(function() {
             var height = (eTop - $(window).scrollTop());
-            if(height < 700) {
+            if(height < 500) {
                 $('#hidden-coolness').css({visibility: 'visible'});
             } else {
                 $('#hidden-coolness').css({visibility: 'hidden'});
