@@ -4,7 +4,7 @@
   <title><![CDATA[Category: IT industry | Thinking For ThoughtWorks]]></title>
   <link href="http://yoursite.com/blog/categories/it-industry/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-11-23T17:37:57+03:00</updated>
+  <updated>2014-01-08T14:53:56-06:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Anthony Scatchell]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Cool Factor]]></title>
     <link href="http://yoursite.com/blog/2013/11/09/the-cool-factor/"/>
-    <updated>2013-11-09T15:37:00+03:00</updated>
+    <updated>2013-11-09T15:37:00-06:00</updated>
     <id>http://yoursite.com/blog/2013/11/09/the-cool-factor</id>
     <content type="html"><![CDATA[<p><em>(This post is still an unfinished draft)</em></p>
 
@@ -43,17 +43,17 @@
 
 <blockquote><p>&ldquo;T-Shaped people, who are generalists amongst a wide array of skills but experts in only a few&rdquo;"</p></blockquote>
 
-<p>Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think these answers are <strong>bullshit</strong>, and that, in most cases, it should be viewed as nothing less.</p>
+<p>Or other such answers of equally indescribable brilliance and specificity. I would like to make clear that I think these answers are bullshit, and that, in most cases, it should be viewed as nothing less.</p>
 
-<p>It is valid and useful in the sense that perfection is an important ideology to <em>strive</em> for &ndash; of course we want to make an <em>attempt</em> to achieve the best possible solution. But, I also feel it&rsquo;s a bit like the president asking his or her chief economic advisor &ldquo;What should we do about balancing the budget?&rdquo; and getting the response &ldquo;We should make sure we don&rsquo;t waste money on bad things, and spend it only on good things!&rdquo; It&rsquo;s a nice idea that&rsquo;s very easy to agree with but, how helpful is it, really?</p>
+<p>It is valid and useful in the sense that perfection is an important ideology to <em>strive</em> for &ndash; of course we want to make an <em>attempt</em> to achieve the best possible solution. But, I also feel it&rsquo;s a bit like the president asking their chief economic advisor &ldquo;What should we do about balancing the budget?&rdquo; and getting the response &ldquo;We should make sure we don&rsquo;t waste money on bad things, and spend it only on good things!&rdquo; It&rsquo;s a cute statement that&rsquo;s very easy to agree with but, without detail and a bit of realism, how helpful is it, really?</p>
 
-<p>So, let us put aside the answer of &ldquo;be perfect&rdquo; and instead consider slightly more realistic concerns.</p>
+<p>So, let us put aside the answer of &ldquo;be perfect&rdquo; and instead consider more realistic concerns.</p>
 
 <h3>The Slightly Less Bullshit Answer:</h3>
 
-<p>In the IT industry, I believe there is an unspoken influence which places a stronger focus on depth than on breadth. I will also argue that I think this is wrong, and not only potentially dangerous to the industry as a whole, but <em>particularly</em> dangerous to consulting firms &ndash; the reasoning of which I will try to detail shortly.</p>
+<p>In the IT industry, I believe there is an unspoken influence which places a stronger focus on depth than on breadth, and I&rsquo;ll try to explain why. I will also argue that I think this is wrong, and not only potentially dangerous to the industry as a whole, but particularly dangerous to consulting firms &ndash; the reasoning of which I will try to detail shortly.</p>
 
-<p>I feel safe suggesting such a hard opinion because I don&rsquo;t insult the general ideology of depth being &lsquo;better&rsquo; than breadth, but instead I insult the mechanism that I believe often causes this decision to be made&hellip;</p>
+<p>I feel safe suggesting such a hard opinion because I don&rsquo;t insult the general ideology of depth being &lsquo;better&rsquo; than breadth, but instead I&rsquo;d like to insult the mechanism that I believe often causes this decision to be made.</p>
 
 <div style="text-align: center;">
   <img style="width: 400px;" src="http://yoursite.com/images/don_draper_is_cool.png" alt="The Cool Factor">
@@ -81,9 +81,11 @@
 </ul>
 
 
-<p>This is a damn <strong>good</strong> idea. It&rsquo;s relatively simple, and has incredible utility with almost every program you might want to write.</p>
+<p>This is a damn good idea. It&rsquo;s relatively simple, and has incredible utility with almost every program you might want to write.</p>
 
-<p><em>Concept B</em> is something that fewer programmers know about. I also think we can safely say it is much less useful than Concept A. It&rsquo;s a more complex idea, and it&rsquo;s likely you will run into this technique only after working with a pointer based language for quite some time. Maybe most critically, it will only be legitimately useful (i.e. no other good way to solve the problem) in a comparatively minuscule number of cases.</p>
+<p><em>Concept B</em> is something that fewer programmers know about. I also think we can safely say it is much less useful than Concept A. It&rsquo;s a more complex idea, and it&rsquo;s likely you will run into this technique only after working with a pointer based language for quite some time.</p>
+
+<p>Maybe most critically, it will only be legitimately useful (i.e. no other good way to solve the problem) in a comparatively minuscule number of cases.</p>
 
 <p>Now &ndash; imagine you ask some fellow developer to tell you about some concept, any concept, concerning programming. What would be a &ldquo;cooler&rdquo; response?  If they responded with and explained <em>Concept A</em>, basic array manipulation, or <em>Concept B</em>, using pointer arithmetic to manipulate arrays? I think the answer is pretty obvious, it would be <strong>much</strong> cooler to tell someone a lesser known technique like Concept B.</p>
 
@@ -97,22 +99,23 @@
 
 <h3>It&rsquo;s incredibly cool to know useless things.</h3>
 
-<p>This is clearly illustrated in a few points:</p>
+<p>Clearly illustrated in a few points:</p>
 
 <ol>
 <li>The more useless something is, the <strong>harder it is to learn</strong> and remember (it is seldom employed, and is so useless that it is rare to come by).</li>
 <li>The <strong>harder it is to learn</strong>, the <strong>less people who know it</strong>.</li>
-<li>The <strong>less people who know</strong> a concept, the cooler it is to know (because you will be one of the few with this knowledge).</li>
+<li>The <strong>less people who know</strong> a concept, the <strong>cooler</strong> it is to know (because you will be one of the few with this knowledge).</li>
+<li>Thus we conclude: People are infinitely impressed by useless knowledge.</li>
 </ol>
 
 
-<p>Thus we can conclude: People are infinitely impressed by useless knowledge.</p>
+<p>Think about it&hellip;if an idea is useful &ndash; truly useful &ndash; it inherently must spread like wildfire through an industry. In the software development industry things like mocking and stubbing, writing tests for large code bases, cloud based storage &ndash; these concepts spread incredibly easily and quickly.</p>
 
-<p>Think about it&hellip;if an idea is useful &ndash; truly useful &ndash; it inherently <strong>must</strong> spread like wildfire through an industry. In the software development industry things like mocking and stubbing, writing tests for large code bases, cloud based storage &ndash; these concepts spread incredibly easily and quickly.</p>
+<p>Other concepts though, remain known by only a few. Why? Because for God&rsquo;s sake, they <em>shouldn&rsquo;t</em> spread. They are useless in all but an extremely small subset of problems, and are not even close to ubiquitously applicable like the good ideas are. Most annoying of all, this seems to be exactly why they are so cool.</p>
 
-<p>Other concepts though, remain known by only a few. Why? Because for God&rsquo;s sake, they <em>shouldn&rsquo;t</em> spread. They are utterly useless in all but an extremely small subset of problems, and are not even close to ubiquitously applicable like the good ideas are. The frustrating part is, this seems to be exactly why they are so damn cool.</p>
+<p>The cool factor seems to be particularly pervasive in the software industry, and I believe it&rsquo;s one of the reasons we often get people being more desirous of a very depth-full understand of tech, so they can obtain more of this deep, &ldquo;cool&rdquo; (useless) knowledge and impress others with that expertise.</p>
 
-<p>The cool factor seems to be particularly pervasive in the software industry, and I believe it&rsquo;s one of the reasons we often get people being more desirous of a very depth-full understand of tech, so they can obtain more of this deep, &ldquo;cool&rdquo; (useless) knowledge and impress others with that expertise. I also feel this is a pretty serious problem.</p>
+<p>I also feel this is a pretty serious problem.</p>
 
 <h3>Why is this an issue?</h3>
 
@@ -120,9 +123,9 @@
 
 <p>The waste of time learning useless knowledge is one issue but, even worse is when people start to actually <strong>use</strong> these concepts just because they think they are so cool. This leads us to employ tools and techniques to solve problems they have absolutely no place in. I.E. writing a large project in vim with all the &ldquo;refactoring tools&rdquo; vim macro&rsquo;s built by hand. Cool? Definitely. Useful and time saving? I think quite the opposite (coming from someone writing this post entirely in vim).</p>
 
-<p>Further, this would be an especially destructive problem in a team of 10 people where only 5 are vim ninja&rsquo;s and the other 5 are just &lsquo;pretty good&rsquo;. A problem that won&rsquo;t be spoken about, of course, because the 5 who are weaker at vim will be disincentivized from speaking up&hellip;due to the incredibly uncool nature of suggesting a fat, memory intensive IDE alternative.</p>
+<p>Further, this would be an especially destructive problem in a team of 10 people where only 5 are vim ninja&rsquo;s and the other 5 are just &lsquo;pretty good&rsquo;. A problem that won&rsquo;t be spoken about, of course, because the 5 who are weaker with vim will be disincentivized from speaking up&hellip;given the incredibly uncool nature of suggesting a fat, memory intensive IDE alternative.</p>
 
-<p>I also feel the problem is particularly dangerous in the consulting industry. As much as we hate it, we are not there to show off how many awesome, bad ass tools and techniques we can use in a project. Instead, we&rsquo;re there to solve some problem as quickly, efficiently, and most important: <strong>simply</strong> as possible. This is in an effort to get code quickly in working order, easy to change, and easily handed over to our clients. Bringing <a href="https://code.google.com/p/guava-libraries/wiki/FunctionalExplained">guava</a> into a project, and upgrading to Java 8 so we can use a hash whose values are functions to solve a relatively simple sorting problem is cool, but is it really necessary? Is it really the simplest and easiest thing we can do to solve that sorting issue for our clients?</p>
+<p>I also feel the problem is particularly dangerous in the consulting industry. As much as we hate it, we are not there to show off how many awesome, bad ass tools and techniques we can use in a project. Instead, we&rsquo;re there to solve some problem as quickly, efficiently, and maybe most important: <strong>simply</strong> as possible. This is in an effort to get code quickly in working order, easy to change, and easily handed over to our clients. Bringing <a href="https://code.google.com/p/guava-libraries/wiki/FunctionalExplained">guava</a> into a project, and upgrading to Java 8 so we can use a hash whose values are functions to solve a relatively simple sorting problem is cool, but is it really necessary? Is it really the simplest and easiest thing we can do to solve that sorting issue for our clients?</p>
 
 <h3>So, what to do?</h3>
 
@@ -137,10 +140,11 @@
 </ul>
 
 
-<p>If you can&rsquo;t do both of the above &ndash; then no matter how cool it is, don&rsquo;t use it :-P</p></li>
-<li>Have someone review your code from time to time. If it takes them more than a few minutes to understand a certain part, it might be due to the unnecessary complexity of some tool or technique you are using there. Keep in mind, the reviewer very well may say &ldquo;Wow, that is AWESOME!&rdquo; once they figure out what the hell is going on but, keep in mind, this is NOT GOOD &ndash; it is actually an indicator you should look more closely and make sure the coolness didn&rsquo;t blind your better judgement.</li>
-<li>Start off with the simplest solution possible. If it works, and keeps the code extensible and easily changeable, avoid at all costs refactoring it to the &lsquo;cooler&rsquo; version.</li>
-<li>If someone tells you of a new technology or tool that is cool as hell, don&rsquo;t get all excited and start using it everywhere. Don&rsquo;t be seduced by the coolness :).</li>
+<p>If you can&rsquo;t do both of the above <em>easily</em> &ndash; then no matter how cool it is, don&rsquo;t use it.</p></li>
+<li><p>Have someone review your code from time to time. If it takes them more than a few minutes to understand a certain part, it might be due to the unnecessary complexity of some tool or technique you are using there.<br/><br/>
+Keep in mind, the reviewer very well may say &ldquo;Wow, that is AWESOME!&rdquo; once they figure out what the hell is going on but, this is NOT GOOD &ndash; it is instead an indicator you should look more closely and make sure the coolness didn&rsquo;t blind your better judgement.</p></li>
+<li><p>Start off with the simplest solution possible. If it works, and keeps the code extensible and easily changeable, avoid at all costs refactoring it to the &lsquo;cooler&rsquo; version.</p></li>
+<li>If someone tells you of a new technology or tool that is cool as hell, don&rsquo;t get all excited and start using it everywhere. Don&rsquo;t be seduced by the coolness.</li>
 </ol>
 
 
@@ -153,16 +157,16 @@
 <li>I didn&rsquo;t say don&rsquo;t learn them&hellip;.learning is awesome! Just don&rsquo;t use them on a project unless they need to be used.</li>
 </ul>
 </li>
-<li>Things get cool because they are useful, not the other way around
+<li>Things get cool because they are useful, not the other way around.
 
 <ul>
-<li>Frankly, I think this is a rationalization for someone who has been seduced by the cool many times and doesn&rsquo;t want to admit their mistakes. There are many historical examples of this argument not working out &ndash; i.e. I suppose in Germany around the 30&rsquo;s, it was pretty damn cool to be a Nazi.</li>
+<li>Frankly, I think this is a rationalization for someone who has been seduced by the cool many times and doesn&rsquo;t want to admit their mistakes. There are many historical examples of this argument not working out &ndash; i.e. I suppose in Germany around the 30&rsquo;s, it was pretty damn &lsquo;cool&rsquo; to be a Nazi.</li>
 </ul>
 </li>
 <li>Avoid the extremes of depth or breadth, and don&rsquo;t concern yourself with this complaint. A happy median is what&rsquo;s really best!
 
 <ul>
-<li>Please see the top of this post under &ldquo;The Answer&rdquo; for a rebuttal to this</li>
+<li>As mentioned in the top of this post, I believe this is an escapist argument to avoid having to really think about an issue.</li>
 </ul>
 </li>
 </ol>
