@@ -114,7 +114,7 @@ Per the norm, exposing and ridiculing a problem is infinitely easier (and more f
     - Consider if you would be to understand the concept if you had never seen or heard of it before, but saw it in the code
 
    If you can't do both of the above *easily* - then no matter how cool it is, don't use it. 
-2. Have someone review your code from time to time. If it takes them more than a few minutes to understand a certain part, it might be due to the unnecessary complexity of some tool or technique you are using there.<br/><br/>
+2. Have someone review your code from time to time. If it takes them more than a few minutes to understand a certain part, it might be due to the unnecessary complexity of some "cool" tool or technique you are using there.<br/><br/>
 Keep in mind, the reviewer very well may say "Wow, that is AWESOME!" once they figure out what the hell is going on but, this is NOT GOOD - it is instead an indicator you should look more closely and make sure the coolness didn't blind your better judgement.
 
 3. Start off with the simplest solution possible. If it works, and keeps the code extensible and easily changeable, avoid at all costs refactoring it to the 'cooler' version.
