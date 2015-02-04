@@ -1,1 +1,1 @@
-rvm use 2.0.0@ideas-blog --create
+rvm use 2.1.2@ideas-blog --create
