@@ -3,6 +3,7 @@ layout: post
 title: "Two different types"
 date: 2015-02-12 23:40
 comments: true
+published: false
 categories: 
 ---
 
