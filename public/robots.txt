@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://tw-ideas.herokuapp.com//sitemap.xml 

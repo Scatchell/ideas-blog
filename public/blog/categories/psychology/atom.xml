@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Psychology | Thinking For ThoughtWorks]]></title>
+  <link href="http://tw-ideas.herokuapp.com//blog/categories/psychology/atom.xml" rel="self"/>
+  <link href="http://tw-ideas.herokuapp.com//"/>
+  <updated>2016-10-31T15:08:24+00:00</updated>
+  <id>http://tw-ideas.herokuapp.com//</id>
+  <author>
+    <name><![CDATA[Anthony Scatchell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Cool Factor]]></title>
+    <link href="http://tw-ideas.herokuapp.com//blog/2013/11/09/the-cool-factor/"/>
+    <updated>2013-11-09T15:37:00+00:00</updated>
+    <id>http://tw-ideas.herokuapp.com//blog/2013/11/09/the-cool-factor</id>
+    <content type="html"><![CDATA[<p><em>(This post is still an unfinished draft)</em></p>
+
+<p>I often find myself having conversations with colleagues around the classic breadth vs depth conundrum. To explain it with a quick example, let&rsquo;s say you have 100 hours to learn some things - and you could choose to either spend the entire 100 hours:</p>
+
+<ul>
+<li>Learning 15 different things, but only to a relatively shallow degree</li>
+<li>Learn only 1 or 2 things, but to an much richer depth</li>
+</ul>
+
+
+<p>So, which would you choose? Especially working in the IT industry, one that changes particularly quickly (making the industry specific information seem inherently transient), this question becomes quite interesting.</p>
+
+<h3>The &ldquo;Answer&rdquo;:</h3>
+
+<p>Just to get this out of the way: If you ask this question to almost anyone, inside or out of the IT industry, you&rsquo;ll likely get the same answer. Can you guess what it is?</p>
+
+<!-- more -->
+
+
+<blockquote><p>&ldquo;A happy median between depth and breath!&rdquo;</p></blockquote>
+
+<p>&hellip;or</p>
+
+<blockquote><p>&ldquo;T-Shaped people, who are generalists amongst a wide array of skills but experts in only a few&rdquo;</p></blockquote>
+
+<p>Or other such answers of equal brilliance and specificity. I would like to make clear that these are not answers to the original question, but are simply clever ways to avoid answering a difficult question.</p>
+
+<p>It is valid and useful in the sense that perfection is an important ideology to <em>strive</em> for&hellip; But, it&rsquo;s also a bit like the president of some country asking their chief economic advisor &ldquo;What should we do about balancing the budget?&rdquo; and getting the response &ldquo;We should make sure we don&rsquo;t waste money on bad things, and spend it only on good things!&rdquo;</p>
+
+<p>Cute statements like that are very easy to agree with but, without detail and a touch of realism, are they really helpful?</p>
+
+<p>So, putting aside the answer of &ldquo;be perfect&rdquo;&hellip;</p>
+
+<h3>The Slightly Less Bullshit Answer:</h3>
+
+<p>In the IT industry, I believe there is an unspoken cultural norm which places a stronger focus on depth than on breadth. Below, I will argue why I think this is not only wrong, but potentially dangerous to the IT industry as a whole (particularly so for software consulting firms.)</p>
+
+<p>That sentence made use of a pretty black and white word: ‘<em>wrong</em>’. However, I don&rsquo;t feel bad suggesting such a hard opinion because I don&rsquo;t insult the general ideology of knowledge depth being &lsquo;better&rsquo; than breadth, but instead I want to insult the mechanism I believe often causes people to choose depth.</p>
+
+<p>This mechanism is&hellip;</p>
+
+<div style="text-align: center;">
+  <img style="width: 400px;" src="http://tw-ideas.herokuapp.com//images/don_draper_is_cool.png" alt="The Cool Factor">
+  
+  <p style="text-align: center; font-size: 1.2em;">The Cool Factor</p>
+</div>
+
+
+<p>The cool factor can be explained with a simple example. Take two programming concepts:</p>
+
+<hr />
+
+<p><strong><em>Concept A</em></strong>: Knowing basic array manipulation in C++, Java, Python, Ruby, JavaScript, etc.</p>
+
+<p><strong><em>Concept B</em></strong>: Knowing a low level pointer based programming language well enough to use pointer arithmetic to alter the values of an array tersely</p>
+
+<hr />
+
+<p><em>Concept A</em> is something just about any programmer will know, iterating and manipulating arrays in a variety of ways, i.e.</p>
+
+<ul>
+<li>Initializing arrays with a set of values</li>
+<li>Iterating and selecting a particular elements</li>
+<li>Mapping over a list to add 1 to every element</li>
+</ul>
+
+
+<p>These are damn good ideas. They&rsquo;re simple, and have incredible utility with almost every piece of software you might want to write.</p>
+
+<p><em>Concept B</em> is something that fewer programmers know inside and out. I also think we can safely say it is less useful than Concept A to the average developer. It&rsquo;s a more complex idea, and it&rsquo;s likely you will run into this technique only after working with very specific types of languages for quite some time.</p>
+
+<p>Maybe most critically, it will only be legitimately useful (i.e. no other good, simple way to solve the problem) in a comparatively tiny number of cases.</p>
+
+<p>Now - imagine you ask some fellow developer to tell you about some concept, any concept, concerning programming. What would be a &ldquo;cooler&rdquo; response?  If they responded with and explained <em>Concept A</em>, basic array manipulation, or <em>Concept B</em>, using pointer arithmetic to manipulate arrays? Of course, it would be <strong>much</strong> cooler to tell someone a lesser known trick like Concept B.</p>
+
+<p>Thus we describe a &ldquo;technical coolness&rdquo; of the two topics as follows:</p>
+
+<p><img src="/images/technical_coolness.png" alt="Technical Coolness" /></p>
+
+<p>This elucidates the &ldquo;cool factor&rdquo;, which is simply the following phenomenon:</p>
+
+<h3>It&rsquo;s incredibly cool to know useless things.</h3>
+
+<p>Clearly illustrated in a few points:</p>
+
+<ol>
+<li>The more useless something is, the <strong>harder it is to learn</strong> and remember (it is seldom employed, and is so useless that it is rare to come by).</li>
+<li>The <strong>harder it is to learn</strong>, the <strong>less people who know it</strong>.</li>
+<li>The <strong>less people who know</strong> a concept, the <strong>cooler</strong> it is to know (you will be one of the few with this knowledge).</li>
+<li>Thus we conclude: People are infinitely impressed by useless knowledge.</li>
+</ol>
+
+
+<p>Think about it&hellip;if an idea is useful - truly useful - it inherently must spread like wildfire through an industry. In the software development industry things like mocking and stubbing, writing tests for large code bases, cloud based storage - these concepts spread incredibly easily and quickly because they are so awesome.</p>
+
+<p>Other concepts though, remain known by only a few. Why? Because for God&rsquo;s sake, they <em>shouldn&rsquo;t</em> spread. Usually they have been long replaced by much better ideas, and are useless in all but an extremely small subset of problems. Most annoying of all, this seems to be exactly why they are so cool.</p>
+
+<p>The cool factor seems to be particularly pervasive in the software industry, and I believe it&rsquo;s one of the reasons we often get people being more desirous of a very depth-full understanding of tech, so they can obtain more of this deep, &ldquo;cool&rdquo; (useless) knowledge and impress others with that &ldquo;expertise.&rdquo;</p>
+
+<p>I also feel this is a pretty serious problem.</p>
+
+<h3>Why would this be an issue?</h3>
+
+<p>The critical reason simply being: It drives people toward spending their valuable (and limited) time learning useless but impressive technical concepts. There is a great opportunity cost, here. Additionally, the coolness of these topics leads them in turn to spread via conversation much more quickly and efficiently throughout the industry than they actually should.</p>
+
+<p>Wasting time learning this useless knowledge is one thing but, much worse is when people start to actually <strong>use</strong> these concepts because they think they are so cool. This leads us to employ tools and techniques to solve problems they have no place in. I.E. writing a large project in vim with all the &ldquo;refactoring tools&rdquo; vim macro&rsquo;s built by hand. Cool? Definitely. Useful and time saving? Quite the opposite (from someone writing this post in vim :) ).</p>
+
+<p>Think of how destructive this would be in a team of 10 people where only 5 are vim ninja&rsquo;s and the other 5 are unfamiliar with the tool. And that’s a problem that won&rsquo;t be spoken about, of course, because the 5 who are weaker with vim will be disincentivized from speaking up&hellip;given the incredibly uncool nature of suggesting a fat, memory intensive IDE alternative&hellip;how dare they!</p>
+
+<p>The problem is particularly dangerous in the consulting industry. As much as we hate it, we are not there to show off how many awesome, bad ass tools and tricks we can use in a project. Instead, consultants are usually hired to solve some problem as quickly, efficiently, and (maybe most important) <strong>simply</strong> as they can. Bringing <a href="https://code.google.com/p/guava-libraries/wiki/FunctionalExplained">guava</a> into a project, and upgrading to Java 8 so we can use a hash whose values are functions to solve a relatively simple sorting problem is cool, but is it really the best thing we can do to solve that sorting issue for our clients?</p>
+
+<h3>So, what to do?</h3>
+
+<p>Per the norm, exposing and ridiculing a problem is infinitely easier (and more fun) than offering any solutions for it. But to give it a shot:</p>
+
+<ol>
+<li>When you come across an idea that seems incredibly cool - stop yourself from exploding in excitement and telling everyone around you how awesome it is. Instead:
+
+<ul>
+<li>Try to think of two good ways to use the idea to solve problems you&rsquo;ve had before in a way that&rsquo;s significantly better than other methods</li>
+<li>Consider how easily you would be able to understand the concept if you had never seen or heard of it before, but saw it in code</li>
+</ul>
+
+
+<p>If you can&rsquo;t easily do both of the above - then no matter how cool it is, don&rsquo;t use it.</p></li>
+<li>Have someone review your code from time to time. If it takes them too long to understand a certain part, it might be due to the unnecessary complexity of something &ldquo;cool&rdquo; you are using there.
+
+<ul>
+<li>If the reviewer says &ldquo;Wow, that is AWESOME!&rdquo; once they finally figure out what the hell is happening, this is <strong>not</strong> good - it is the opposite of good and is instead an indicator you should look more closely and make sure the coolness didn&rsquo;t blind your better judgement.</li>
+</ul>
+</li>
+<li>If someone tells you of a new technology or tool that is cool as hell, don&rsquo;t get all excited and start using it everywhere. Don&rsquo;t be seduced by the coolness.</li>
+</ol>
+
+
+<p>So then, go off into the world and fearlessly be uncool!</p>
+]]></content>
+  </entry>
+  
+</feed>
