@@ -3,6 +3,7 @@ layout: post
 title: "Consulting Battles"
 date: 2014-05-05 22:57
 comments: true
+published: false
 categories: 
 ---
 People tend to get into battles over unimportant things. There seems to be some innate facet of humanity that socially mandates battles (and in particular, winning them.)

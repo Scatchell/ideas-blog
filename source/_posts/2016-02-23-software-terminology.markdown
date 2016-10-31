@@ -3,6 +3,7 @@ layout: post
 title: "Software terminology"
 date: 2016-02-23 23:39
 comments: true
+published: false
 categories: 
 ---
 
